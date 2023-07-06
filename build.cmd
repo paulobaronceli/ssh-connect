@@ -12,6 +12,10 @@ ECHO Creating optimized build...
 COPY /y ssh-connect.exe releases\%version%\ssh-connect.exe
 COPY /y db\.servers.bkp releases\%version%\db\.servers.mdb
 COPY /y bin\connect.exe releases\%version%\bin\connect.exe
+
+:: Additional files v.0.1b
+COPY /y bin\download.exe releases\%version%\bin\download.exe
+
 ECHO All done!
 ECHO ---------------------------------------------------------------------------
 ECHO You can access your build files in the directory /releases/%version%/.
