@@ -51,6 +51,7 @@ modules/
 
 # Specific files
 bin/connect.cmd
+bin/download.cmd
 bin/password.sshcp
 bin/username.sshcp
 bin/parameters.sshcp

@@ -45,3 +45,12 @@ you a hand.
 ## Distribution
 
 This is a freeware software and can be copied and distributed by anyone.
+
+## Version History
+
+### 0.1a
+First release.
+
+### 0.1b
+- Added support to download files via SSH connections,
+- Minor GUI updates.
